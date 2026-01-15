@@ -14,3 +14,11 @@ Run evidence collection (default output folder: ./output):
 ```bash
 ./scripts/run_all.sh
 
+DAYS=7 ./scripts/run_all.sh
+
+
+Quick verify:
+
+```bash
+sed -n '1,120p' README.md
+
